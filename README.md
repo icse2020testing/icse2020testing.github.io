@@ -8,6 +8,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### Support Material
 
-1. The manually written ground-truth test cases can be found [here](about:blank).
+1. The manually written ground-truth test cases can be found [here](http://example.com).
 
-2. The source code for the framework's implementation, including the model extractor, GUI mapper, test processor, test analyzer, and ground truth mapping of GUI events to their canonical IDs, can be found [here](about:blank).
+2. The source code for the framework's implementation, including the model extractor, GUI mapper, test processor, test analyzer, and ground truth mapping of GUI events to their canonical IDs, can be found [here](http://example.com).
