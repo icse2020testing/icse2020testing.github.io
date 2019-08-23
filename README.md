@@ -12,7 +12,7 @@ Our abstract
 ### Subject Apps
 table
 
-### Benchmar Test Cases
+### Benchmark Test Cases
 table
 
 ### Support Material
