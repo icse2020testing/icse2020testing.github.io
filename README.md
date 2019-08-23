@@ -2,10 +2,18 @@
 
 Our abstract
 
+### FrUITeR Reference Architecture
 ![Image](figs/framework.png)
 
 
+### FrUITeR Test Analyzer
 ![Image](figs/workflow.png)
+
+### Subject Apps
+table
+
+### Benchmar Test Cases
+table
 
 ### Support Material
 
