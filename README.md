@@ -13,7 +13,7 @@ Our abstract
 <img src="figs/appstable.png" width="700px" height="326px">
 
 ### Benchmark Test Cases
-<img src="figs/testcasestable.png" width="700px" height="474px"> 
+<img src="figs/testcasestable.png" width="700px" height="474px">
 
 ### Support Material
 
