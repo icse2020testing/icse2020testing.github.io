@@ -1,25 +1,18 @@
 ### Summary
 
-Our abstract
+UI testing is known to be tedious and time-consuming due to the manual effort required. Recent research has started to explore the opportunity for reusing existing UI tests for an app to automatically generate new tests for other apps. However, the evaluation of such techniques currently remains manual, unscalable, and unreproducible, which can waste efforts and impede progress in this emerging area. We introduce FrUITeR, a framework that automatically evaluates UI test reuse with a reproducible protocol. We use FrUITeR to conduct a preliminary case study in which we reuse 60 tests from 3 apps. We report several key findings aimed at improving UI test reuse that are missed by existing work.
 
 ### FrUITeR's Automated Workflow
 <img src="figs/workflow.png" width="700px" height="288px">
 
 ### Supplementary Material
 
-1. FrUITeR's Event Extractor component is implemented in Java using [Soot]() with 200 SLOC. [source code]()
+1. FrUITeR's Event Extractor component is implemented in Java using [Soot](http://sable.github.io/soot/) with 200 SLOC. The source code can be found at [EventExtractor](EventExtractor/).
 
-2. FrUITeR's Accuracy Evaluator and Utility Evaluator are implemented in Python with 800 + ATM's code SLOC. [source code]()
+2. FrUITeR's Accuracy Evaluator and Utility Evaluator are implemented in Python with 860 SLOC. The source code can be found at [Evaluator](Evaluator/).
 
-3. The benchmark test cases are implemented in Java with X SLOC. [source code]() 
+3. The subject apps (Wish, Etsy, Geek), benchmark test cases (implemented in Java using [appium](http://appium.io/)), and the corresponding  ground-truth Canonical Maps can be found at [Benchmark](Benchmark/).
 
-4. The final dataset of the case study (3 subject apps, 60 test cases, 340 GUI events)
+4. The re-implementation of the core components extracted from [ATM](https://sites.google.com/view/apptestmigrator/) and [AppFlow](https://github.com/columbia/appflow) can be found at [GUIMapper](GUIMapper/).
 
-5. Subject apps (Wish, Etsy, Geek) and their ground-truth Canonical Maps  [here]()
-
-6. The re-implementation of ATM and AppFlo
-
-
-2. The source code for the framework's implementation including different components (e.g., GUI Mapper, Test Processor); and Test Analyzer including ground truth mapping of GUI events to their canonical IDs, can be found [here](https://drive.google.com/file/d/1oMtoWUuzsXuNnOiUjxWEiLuQ25UrHZtW/view).
-
-3. The results of our analysis on over 7,000 test transfer cases with 90 combinations of 10 subject apps (1MB .RData file), along with the .R scripts to analyze different statistics, can be found [here](https://drive.google.com/file/d/19nXkYnMq03WLmGDXyxIEcZuCpCWPh5uR/view).
+5. The final dataset of the case study (3 subject apps, 60 test cases, 340 GUI events) can be found at [Dataset](Dataset/).
