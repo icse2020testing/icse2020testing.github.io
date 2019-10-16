@@ -2,24 +2,23 @@
 
 Our abstract
 
-### FrUITeR Reference Architecture
-<img src="figs/framework.png" width="700px" height="471px">
-
-
-### FrUITeR Test Analyzer
+### FrUITeR's Automated Workflow
 <img src="figs/workflow.png" width="700px" height="288px">
 
-### Subject Apps
-<img src="figs/appstable.png" width="700px" height="326px">
+### Supplementary Material
 
-### Benchmark Test Cases
-<img src="figs/testcasestable.png" width="700px" height="474px">
+1. FrUITeR's Event Extractor component is implemented in Java using [Soot]() with 200 SLOC. [source code]()
 
-### Support Material
-Put implementation section here with line counts.
+2. FrUITeR's Accuracy Evaluator and Utility Evaluator are implemented in Python with 800 + ATM's code SLOC. [source code]()
 
+3. The benchmark test cases are implemented in Java with X SLOC. [source code]() 
 
-1. The manually written ground-truth test cases can be found [here](https://drive.google.com/file/d/1NA9n7qTomWPTdll2X--vUhOOrpfWMomA/view).
+4. The final dataset of the case study (3 subject apps, 60 test cases, 340 GUI events)
+
+5. Subject apps (Wish, Etsy, Geek) and their ground-truth Canonical Maps  [here]()
+
+6. The re-implementation of ATM and AppFlo
+
 
 2. The source code for the framework's implementation including different components (e.g., GUI Mapper, Test Processor); and Test Analyzer including ground truth mapping of GUI events to their canonical IDs, can be found [here](https://drive.google.com/file/d/1oMtoWUuzsXuNnOiUjxWEiLuQ25UrHZtW/view).
 
