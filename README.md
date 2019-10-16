@@ -7,12 +7,12 @@ UI testing is known to be tedious and time-consuming due to the manual effort re
 
 ### Supplementary Material
 
-1. FrUITeR's Event Extractor component is implemented in Java using [Soot](http://sable.github.io/soot/) with 200 SLOC. The source code can be found at [EventExtractor](EventExtractor/).
+1. FrUITeR's Event Extractor component is implemented in Java using [Soot](http://sable.github.io/soot/) with 200 SLOC. The source code can be found at [EventExtractor](https://github.com/icse2020testing/icse2020testing.github.io/tree/master/EventExtractor/).
 
-2. FrUITeR's Accuracy Evaluator and Utility Evaluator are implemented in Python with 860 SLOC. The source code can be found at [Evaluator](Evaluator/).
+2. FrUITeR's Accuracy Evaluator and Utility Evaluator are implemented in Python with 860 SLOC. The source code can be found at [Evaluator](https://github.com/icse2020testing/icse2020testing.github.io/tree/master/Evaluator/).
 
-3. The subject apps (Wish, Etsy, Geek), benchmark test cases (implemented in Java using [appium](http://appium.io/)), and the corresponding  ground-truth Canonical Maps can be found at [Benchmark](Benchmark/).
+3. The subject apps (Wish, Etsy, Geek), benchmark test cases (implemented in Java using [appium](http://appium.io/)), and the corresponding  ground-truth Canonical Maps can be found at [Benchmark](https://github.com/icse2020testing/icse2020testing.github.io/tree/master/Benchmark/).
 
-4. The re-implementation of the core components extracted from [ATM](https://sites.google.com/view/apptestmigrator/) and [AppFlow](https://github.com/columbia/appflow) can be found at [GUIMapper](GUIMapper/).
+4. The re-implementation of the core components extracted from [ATM](https://sites.google.com/view/apptestmigrator/) and [AppFlow](https://github.com/columbia/appflow) can be found at [GUIMapper](https://github.com/icse2020testing/icse2020testing.github.io/tree/master/GUIMapper/).
 
-5. The final dataset of the case study (3 subject apps, 60 test cases, 340 GUI events) can be found at [Dataset](Dataset/).
+5. The final dataset of the case study (3 subject apps, 60 test cases, 340 GUI events) can be found at [Dataset](https://github.com/icse2020testing/icse2020testing.github.io/tree/master/Dataset/).
