@@ -7,7 +7,7 @@ UI testing is known to be tedious and time-consuming due to the manual effort re
 
 ### Supplementary Material
 
-All the source code and artifacts can be downloaded [here](https://drive.google.com/file/d/1KRIU5BlUtJFdqlwc1_Pe8DysX3pY1N9x/view?usp=sharing).
+All the source code and artifacts can be downloaded [here](https://drive.google.com/file/d/1ECPc2PBBdGwJHJqdF_tr8Q__dAavwyFg/view?usp=sharing).
 
 1. FrUITeR's Event Extractor component is implemented in Java using [Soot](http://sable.github.io/soot/) with 200 SLOC. The source code can be found at /EventExtractor.
 
